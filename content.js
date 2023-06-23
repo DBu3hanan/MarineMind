@@ -79,6 +79,25 @@ function showSlides() {
 }
 
 
+function bigImg(x) {
+	x.style.top = "48.8%";
+	// x.style.width = "109px";
+  }
+  
+  function normalImg(x) {
+	x.style.top = "49%";
+  }
+
+
+  function dictonary() {
+	window.location.href = "dictonary.html";
+  }
+
+  function animaldata() {
+	window.location.href = "animaldata.html";
+  }
+
+
 
 
 
