@@ -94,7 +94,7 @@ function bigImg(x) {
   }
 
   function animaldata() {
-	window.location.href = "Pages/animaldata.html";
+	window.location.href = ".../Pages/animaldata.html";
   }
 
 
