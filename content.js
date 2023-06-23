@@ -97,6 +97,15 @@ function bigImg(x) {
 	window.location.href = "animaldata.html";
   }
 
+  function facts() {
+	window.location.href = "Facts.html";
+  }
+
+  function gallery() {
+	window.location.href = "Gallery.html";
+  }
+
+
 
 
 
