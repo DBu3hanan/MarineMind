@@ -94,7 +94,7 @@ function bigImg(x) {
   }
 
   function animaldata() {
-	window.location.href = "https://dbu3hanan.github.io/MarineMind/animaldata";
+	window.location.href = "https://dbu3hanan.github.io/MarineMind/AnimalDatase";
   }
 
   function facts() {
