@@ -40,10 +40,6 @@
 		<option value="">About</option>
 		<option value="">Help</option>
 		<option value="">News</option>
-		<option value="">Facts</option>
-		<option value="">Dictionary</option>
-		<option value="">Animal Database</option>
-		<option value="">Gallery</option>
 	</select>
 	</nav>	
 		
@@ -75,7 +71,13 @@
 	background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Gallery</button>
 	</ul>
 
-
+	<select class="undertitle">
+		<option value="" selected="selected">Select</option> 
+		<option value="">Facts</option>
+		<option value="">Dictionary</option>
+		<option value="">Animal Database</option>
+		<option value="">Gallery</option>
+	</select>
 	
 </nav>
 
@@ -263,9 +265,22 @@ input{
 }
 
 .undertitle{
-	font-weight: bold; display: inline; position: absolute;top: 35%;left: 54%;
+	/* font-weight: bold; display: inline; position: absolute;top: 35%;left: 54%;
 	transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;
-	cursor: pointer;border-radius: 5px;width: 25%;
+	cursor: pointer;border-radius: 5px;width: 25%; */
+
+	float: right;
+	width: 20%;
+	height: 40px;
+	background-color: #0F1B33;
+	border-bottom: solid;
+	border: solid black;
+	margin: 250px -1% 1px;
+	color:#A1E5D8;
+	font-weight: bold;
+	border-radius: 8px;
+	top: 95%;left: 54%;
+	font-weight: bold;
 }
 </style>
 </html>
