@@ -90,7 +90,7 @@ function bigImg(x) {
 
 
   function dictonary() {
-	window.location.href = "dictonary.html";
+	window.location.href = ".../Pages/dictonary.html";
   }
 
   function animaldata() {
